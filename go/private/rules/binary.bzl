@@ -42,6 +42,7 @@ load(
     "//go/private/rules:transition.bzl",
     "go_transition",
 )
+load("@//src/com/gs/ctl/runtime/config/impl/identity_configuration:transitions.bzl", "to_default_identity_configuration")
 
 _EMPTY_DEPSET = depset([])
 
